@@ -1,0 +1,99 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link href="https://fonts.googleapis.com/css?family=Lora|Ubuntu:300,400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body> 
+        <header>
+            <button id="darkModeToggle">Toggle Dark Mode</button>
+            <div id="clock"></div>
+            <div class="container container-flex">
+                <div class="site-title">
+                    <img src="img/uitm.png" alt="UiTM Logo" class="logo">
+                    <div>
+                        <h1>UiTM Students Life</h1>
+                        <p class="subtitle">A blog about our life in UiTM</p>
+                    </div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a class="current-page" href="about-me.html">About us</a></li>
+                        <li><a href="recent-posts.html">Recent posts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <script src="script.js"></script>
+        
+        <div class="container container-flex">
+            <main role="main">
+                <div class="slideshow-container">
+                    <img src="img/nazmi.jpg" class="slide active">
+                    <img src="img/mirza.jpg" class="slide">
+                    <img src="img/khairi.jpg" class="slide">
+                    <img src="img/lep.jpg" class="slide">
+                    <img src="img/mirzamoi.jpg" class="slide">
+                    <img src="img/leptua.jpg" class="slide">
+                </div>
+                <h2>The 4 Best Friends</h2>
+
+                <p> We’re four close friends who found each other 
+                    during the whirlwind years of college, and we’ve been inseparable ever since. What started 
+                    as late-night study sessions, endless coffee runs, and deep conversations under the stars 
+                    has grown into a lifelong friendship—and now, this blog</p>
+
+                <h3>Who Are We?</h3>
+                <p>
+                    <button class="name-button" onclick="playSound('amirul')">AMIRUL KHAIRI</button>: A man with a <b>WIDE</b> range of skills.<br><br>
+                    <button class="name-button" onclick="playSound('alif')">ALIF IMAN</button>: A man who has seen everything throughout his <b>YEAR</b>.<br><br>
+                    <button class="name-button" onclick="playSound('nazmi')">WAN NAZMI</button>: A man with the <b>BIGGEST</b> heart in the group.<br><br>
+                    <button class="name-button" onclick="playSound('mirza')">MUHD MIRZA</button>: A man with the most <b>SCAR</b> yet the kindest.
+                  </p>
+                
+                  <audio id="amirul" src="music/Khairi.m4a"></audio>
+                  <audio id="alif" src="music/alep.mp3"></audio>
+                  <audio id="nazmi" src="music/weng.mp3"></audio>
+                  <audio id="mirza" src="music/mirza.mp3"></audio>
+                  <br> 
+                
+                <iframe width="900" height="305" src="vid/trip.mp4" 
+                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+                
+        </iframe> 
+            </main>
+            
+            <aside class="sidebar">
+                            
+                <div class="sidebar-widget">
+                    <h2 class="widget-title">RECENT POSTS</h2>
+                    <div class="widget-recent-post">
+                        <a href="recent-posts.html" class="article-read-more">SPORTS</a>
+                        <img src="img/bola.jpg" alt="two dumplings on a wood plate with chopsticks" class="widget-image">
+                    </div>
+                    <div class="widget-recent-post">
+                        <a href="recent-posts.html" class="article-read-more">STUDYING</a>
+                        <img src="img/ramai 1.jpg" alt="a chair white chair at a white desk on a white wall" class="widget-image">
+                    </div>
+                    <div class="widget-recent-post">
+                        <a href="recent-posts.html" class="article-read-more">LEISURE</a>
+                        <img src="img/ramai 2.jpg" alt="a green plant in a clear, round vase with water in it" class="widget-image">
+                    </div>
+                </div>
+                
+            </aside>
+            
+        </div>
+        
+        <br>
+        <footer>
+            <p><strong>UTIM DIHATIKU</strong></p>
+            <p>Copyright 2025<sup>&copy;</sup></p>
+            <p><strong>Contact Us</a>:</strong></p>
+            <p>Phone: <a href="tel:+60 3-5544 2000">+603-5544 2000</a></p>
+            <p>Email: <a href="mailto:2022614734@student.uitm.my">20222614734@student.uitm.my</a></p>
+        </footer>
+        
+        
+    </body>
+</html>
